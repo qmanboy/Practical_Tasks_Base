@@ -1,0 +1,5 @@
+project(test)
+
+cmake_minimum_required(VERSION 3.20)
+
+add_executable(les3-3 main.cpp init.cpp)

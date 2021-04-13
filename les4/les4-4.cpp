@@ -8,7 +8,7 @@ int main() {
       std::cout << "Enter year (enter 0 to exit)\n> ";
       std:: cin >> year; 
 
-      leap = (year % 4 == 0) && (year % 100 != 0) && (year % 4 == 0); 
+      leap = (year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0); 
       
       if (leap)
         std::cout << " Leap year \n";
